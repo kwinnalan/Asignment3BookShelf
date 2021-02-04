@@ -9,6 +9,7 @@ public class BookShelf
 {
     private int numBooks;
     private Book book1;
+    
     /**
      * Constructor for objects of class BookShelf
      */
@@ -39,11 +40,11 @@ public class BookShelf
      */
     public void printBook()
     {
-        System.out.println("Title: " + book1.title);
-        System.out.println("Author: " + book1.authorFirstName + " " + book1.authorLastName);
-        System.out.println("ISBN Number: " + book1.isbnNumber);
-        System.out.println("Publication Date: " + book1.pubDate);
-        System.out.println("Number of Pages: " + book1.numPages);
+        System.out.println("Title: " + book1.getTitle());
+        System.out.println("Author: " + book1.getAuthorFirstName() + " " + book1.getAuthorLastName());
+        System.out.println("ISBN Number: " + book1.getISBNNumber());
+        System.out.println("Publication Date: " + book1.getPubDate());
+        System.out.println("Number of Pages: " + book1.getNumPages());
     }
     
     /**

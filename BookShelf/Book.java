@@ -8,12 +8,12 @@
 public class Book
 {
     // instance variables 
-    public String authorLastName;
-    public String authorFirstName;
-    public int isbnNumber;
-    public String title;
-    public String pubDate;
-    public int numPages;
+    private String authorLastName;
+    private String authorFirstName;
+    private int isbnNumber;
+    private String title;
+    private String pubDate;
+    private int numPages;
     /**
      * Constructor for objects of class Book
      */
